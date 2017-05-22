@@ -6,4 +6,4 @@ Try this out & enjoy!
 
 Thank you Matteo
 
-[sample](https://github.com/FullMetalFist/PlayingWithTableViewsRevisited/raw/master/img/SimScreenShot.png)
+[sample](https://github.com/FullMetalFist/PlayingWithTableViewsRevisited/SimScreenShot.png)

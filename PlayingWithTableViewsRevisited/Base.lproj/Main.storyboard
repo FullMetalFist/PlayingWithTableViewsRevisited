@@ -82,14 +82,18 @@
             </objects>
             <point key="canvasLocation" x="1005.6" y="791.15442278860576"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Quotes-->
         <scene sceneID="n0P-XW-2Ud">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wVd-7c-Cd6" sceneMemberID="viewController">
+                <navigationController title="Quotes" automaticallyAdjustsScrollViewInsets="NO" id="wVd-7c-Cd6" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KPa-Kb-Ryr">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="KPa-Kb-Ryr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

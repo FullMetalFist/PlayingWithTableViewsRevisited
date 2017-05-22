@@ -6,4 +6,4 @@ Try this out & enjoy!
 
 Thank you Matteo
 
-![](https://github.com/FullMetalFist/PlayingWithTableViewsRevisited/SimScreenShot.png)
+![](SimScreenShot.png)

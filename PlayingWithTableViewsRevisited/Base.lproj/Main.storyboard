@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wVd-7c-Cd6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlayingWithTableViewsRevisited" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="141" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pv3-fE-3Zh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="QuoteCell" rowHeight="141" id="WMX-vc-JLi" customClass="QuoteCell" customModule="PlayingWithTableViewsRevisited" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="141"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WMX-vc-JLi" id="2Gq-Y1-XcV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="140.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s15-ya-wx5">
+                                                    <rect key="frame" x="24" y="24" width="327" height="55.5"/>
+                                                    <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                                                    <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="The Dude" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baU-Vc-SlZ">
+                                                    <rect key="frame" x="16" y="95.5" width="343" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="s15-ya-wx5" secondAttribute="trailing" constant="16" id="PvH-XY-mKg"/>
+                                                <constraint firstAttribute="trailing" secondItem="baU-Vc-SlZ" secondAttribute="trailing" constant="16" id="Pvj-q9-1nv"/>
+                                                <constraint firstItem="s15-ya-wx5" firstAttribute="leading" secondItem="2Gq-Y1-XcV" secondAttribute="leadingMargin" constant="16" id="TRB-Di-1ke"/>
+                                                <constraint firstItem="baU-Vc-SlZ" firstAttribute="leading" secondItem="2Gq-Y1-XcV" secondAttribute="leading" constant="16" id="Wzu-zE-zNy"/>
+                                                <constraint firstItem="baU-Vc-SlZ" firstAttribute="top" secondItem="s15-ya-wx5" secondAttribute="bottom" constant="16" id="cJu-Q8-EqI"/>
+                                                <constraint firstAttribute="bottom" secondItem="baU-Vc-SlZ" secondAttribute="bottom" constant="24" id="iuI-Cg-edo"/>
+                                                <constraint firstItem="s15-ya-wx5" firstAttribute="top" secondItem="2Gq-Y1-XcV" secondAttribute="topMargin" constant="16" id="qVV-ho-m3v"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="authorLabel" destination="baU-Vc-SlZ" id="L51-zY-SN2"/>
+                                            <outlet property="quoteLabel" destination="s15-ya-wx5" id="JC9-fe-snj"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pv3-fE-3Zh" secondAttribute="bottom" id="HG2-K8-PsZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Pv3-fE-3Zh" secondAttribute="trailing" id="JkZ-Dk-Iox"/>
+                            <constraint firstItem="Pv3-fE-3Zh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SRw-Hv-k5X"/>
+                            <constraint firstItem="Pv3-fE-3Zh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="are-NG-D7c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="41H-3d-55z"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pv3-fE-3Zh" id="OYo-cX-zXH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005.6" y="791.15442278860576"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="n0P-XW-2Ud">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wVd-7c-Cd6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KPa-Kb-Ryr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YMg-ho-hvo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O17-Se-jXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="791.15442278860576"/>
+        </scene>
+    </scenes>
+</document>

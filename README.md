@@ -6,4 +6,4 @@ Try this out & enjoy!
 
 Thank you Matteo
 
-<img src="https://raw.githubusercontent.com/FullMetalFist/PlayingWithTableViewsRevisited/blob/master/SimScreenShot.png" width="414", height="628" />
+<img src="https://github.com/FullMetalFist/PlayingWithTableViewsRevisited/blob/master/SimScreenShot.png" width="414", height="628" />

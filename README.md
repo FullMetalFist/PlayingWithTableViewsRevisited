@@ -6,4 +6,4 @@ Try this out & enjoy!
 
 Thank you Matteo
 
-![](https://raw.githubusercontent.com/duliodenis/cs193p-Spring-2016/master/art/cs193p.jpg)
+![](https://github.com/FullMetalFist/PlayingWithTableViewsRevisited/blob/master/SimScreenShot.png)
